@@ -32,7 +32,7 @@ public class Test {
         int test = 1000;
         for (int i = 0; i < test; i++) {
             int[] arr = random(5, 20);
-            BubbleSort.sort(arr);
+            QuickSort.sort(arr);
             if (!isSorted(arr)) {
                 for (i = 0; i < arr.length; i++) {
                     System.out.print(arr[i] + " ");
